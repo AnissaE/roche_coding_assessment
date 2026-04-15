@@ -3,16 +3,19 @@ ADS programmer coding exercises
 There are three folders containing all the scripts, files, and plots for each question, built this way: 
 ## Question 1
 folder name: question_1_stdm
+
               * 01_create_ds_domain.R: R script that runs question 1
               
               * DS_dataset.csv: output of the domain DS created by the script
 ## Question 2
 folder name: question_2_adam
+
               * create_adsl.R: R script that runs question 2
               
               * create_adsl.csv: output of the derived ADSL created by the script
 ## Question 3
 folder name: question_3_tlg
+
               * 01_create_ae_summary_table.R: R script that creates the first summary table in compliance with FDA standards
               
               * table_TEAE_FDA.html: HTML file of the table 01_create_ae_summary_table.R
