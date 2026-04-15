@@ -98,8 +98,6 @@ ds.df<-ds.df%>%
   dplyr::select(STUDYID, DOMAIN, USUBJID, DSSEQ, DSTERM, DSDECOD, DSCAT, 
          VISITNUM, VISIT, DSDTC, DSSTDTC)
 
-write.csv(ds.df, "question_1_sdtm/DS_dataset.csv", row.names = FALSE)
-sink("question_1_sdtm/question1.log")
-print(head(ds.df))
-sink()
+write.csv(ds.df, "DS_dataset.csv", row.names = FALSE)
+
 
